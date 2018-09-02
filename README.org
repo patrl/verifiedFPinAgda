@@ -1,0 +1,3 @@
+#+TITLE: README
+
+Exercises from [[https://dl.acm.org/citation.cfm?id=2841316][Verified Functional Programming in Agda]].
