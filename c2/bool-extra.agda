@@ -11,6 +11,7 @@ open import sum
 &&-comm{tt}{tt}{ff} = refl
 &&-comm{tt}{tt}{tt} = refl
 
+-- A proof of the commutatitivity of disjunction
 ||-comm : ∀ {b1 b2 b3} → ((b1 || b2) || b3) ≡ (b1 || (b2 || b3))
 ||-comm{ff} = refl
 ||-comm{tt} = refl

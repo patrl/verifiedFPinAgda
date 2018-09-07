@@ -1,0 +1,29 @@
+#+TITLE: c2
+
+* Exercise 2.3
+
+Can be proved by ~refl~:
+
+#+begin_src
+tt ≡ tt
+#+end_src
+
+Can be proved by ~refl~:
+
+#+begin_src
+ff ≡ ff
+#+end_src
+
+Can't be proved by ~refl~:
+
+#+begin_src
+ff ≡ tt
+#+end_src
+
+Can be proved by ~refl~:
+
+#+begin_src
+ff && ff ≡ ~ tt
+#+end_src
+
+** TODO the last part of the ex.
